@@ -1,0 +1,33 @@
+<!-- Hlavni web. stranka aplikace -->
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cinkacka</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="manifest" href="manifest.json">
+    <script src="app.js"></script>
+</head>
+<body>
+
+
+    <div id="nastaveni" class="page_visible">
+        <input type="text" name="nastavenifilmu" id="nastvenifilmu">
+        
+        <button type="button" onclick="ZmenStranku1()">film</button>
+    </div>
+    
+
+    <div id="film" class="page">
+        <h3>Tvůj oblíbený film je:</h3>
+        <div id="zobrazenifilmu">neni film</div>
+        <button type="button" onclick="ZmenStranku2()">nastaveni</button>
+
+    </div>
+    
+
+    
+    
+</body>
+</html>
